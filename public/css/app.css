@@ -1,0 +1,91 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Nunito', sans-serif;
+}
+
+.dashboard-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.dashboard-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.welcome-text {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #34495e;
+}
+
+.quick-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.action-button {
+    display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.action-button:hover {
+    background: #2980b9;
+}
+
+
+/* =========================== */
+/* General Page & Form Styles */
+/* =========================== */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-container label {
+    margin-bottom: 4px;
+    font-size: 15px;
+    color: #555;
+}
+
+.form-container input {
+    padding: 10px 14px;
+    font-size: 15px;
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.2s;
+}
+
+.form-container input:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+}
+
+.form-container button {
+    background-color: #28a745;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.form-container button:hover {
+    background-color: #218838;
+}
+
+
+
