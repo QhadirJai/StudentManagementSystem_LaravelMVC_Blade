@@ -1,3 +1,38 @@
+# 🎓 Student Management System
+
+A simple web-based system built with **Laravel** to manage students, courses, exam marks, and generate academic performance reports.
+
+## 🚀 Features
+
+### 👥 Roles & Permissions
+- **Admin**
+  - Register students and lecturers
+  - Manage courses
+  - Assign lecturers to courses
+  - View and export performance reports
+- **Lecturer**
+  - View assigned courses
+  - Enter and manage student exam marks for their courses only
+
+### 📦 Modules
+- **Student Management**: Create, update, delete students
+- **Course Management**: Create, update, assign lecturers to courses
+- **Exam Marks**: Add/edit marks for students per course
+- **Reports**:
+  - Average marks **per student**
+  - Average marks **per subject**
+  - Export both reports to **CSV** (via Laravel Excel)
+
+## 🧱 Tech Stack
+
+- **Backend:** Laravel 11
+- **Auth:** Laravel Breeze (with roles)
+- **Frontend:** Tailwind CSS
+- **Export:** Laravel Excel
+- **Database:** MySQL 
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
